@@ -10,7 +10,7 @@ public class DashboardPage {
 	@FindBy(tagName="h1")
 	 private WebElement header;
 	
-	@FindBy(xpath="//span[text()='Users']")
+	@FindBy(xpath="//li[3]/a/span")
 	private WebElement userBtn;
 
 	public DashboardPage(WebDriver driver) {

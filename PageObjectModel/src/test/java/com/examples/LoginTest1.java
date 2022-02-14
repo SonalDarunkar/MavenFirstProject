@@ -17,7 +17,7 @@ public class LoginTest1 {
 	UserPage up = null;
 	@BeforeSuite
 	 public void setup() {
-		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get(
 	    "file:///C:/Users/DELL/Desktop/java/Selenium/docs/javabykiran-Selenium-Softwares/javabykiran-Selenium-Softwares/Offline%20Website/index.html");
@@ -33,7 +33,7 @@ public class LoginTest1 {
     
 	@Test
 	public void verifyUserPage() {
-		dp=lp.validLogin();
+		//dp=lp.validLogin();
 		up=dp.clickUser();
 		Assert.assertEquals(driver.getTitle(), "JavaByKiran | User");
 	}
