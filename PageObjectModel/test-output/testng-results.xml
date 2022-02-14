@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8555" started-at="2022-02-11T14:01:37 IST" finished-at="2022-02-11T14:01:45 IST">
+  <suite name="Default suite" duration-ms="2160" started-at="2022-02-14T08:58:49 IST" finished-at="2022-02-14T08:58:51 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8555" started-at="2022-02-11T14:01:37 IST" finished-at="2022-02-11T14:01:45 IST">
+    <test name="Default test" duration-ms="2160" started-at="2022-02-14T08:58:49 IST" finished-at="2022-02-14T08:58:51 IST">
       <class name="com.examples.LoginTest1">
-        <test-method status="PASS" signature="TestLoginDetails()[pri:0, instance:com.examples.LoginTest1@1d29cf23]" name="TestLoginDetails" duration-ms="8514" started-at="2022-02-11T14:01:37 IST" finished-at="2022-02-11T14:01:45 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.examples.LoginTest1@2a742aa2]" name="setup" is-config="true" duration-ms="9097" started-at="2022-02-14T08:58:40 IST" finished-at="2022-02-14T08:58:49 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestLoginDetails -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyDPHeader()[pri:0, instance:com.examples.LoginTest1@2a742aa2]" name="verifyDPHeader" duration-ms="1901" started-at="2022-02-14T08:58:49 IST" finished-at="2022-02-14T08:58:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDPHeader -->
+        <test-method status="PASS" signature="verifyUserPage()[pri:0, instance:com.examples.LoginTest1@2a742aa2]" name="verifyUserPage" duration-ms="211" started-at="2022-02-14T08:58:51 IST" finished-at="2022-02-14T08:58:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserPage -->
       </class> <!-- com.examples.LoginTest1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

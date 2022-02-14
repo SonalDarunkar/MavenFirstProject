@@ -33,6 +33,7 @@ public class LoginTest1 {
     
 	@Test
 	public void verifyUserPage() {
+		dp=lp.validLogin();
 		up=dp.clickUser();
 		Assert.assertEquals(driver.getTitle(), "JavaByKiran | User");
 	}
