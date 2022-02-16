@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2160" started-at="2022-02-14T08:58:49 IST" finished-at="2022-02-14T08:58:51 IST">
+  <suite name="Default suite" duration-ms="2710" started-at="2022-02-14T09:37:00 IST" finished-at="2022-02-14T09:37:03 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2160" started-at="2022-02-14T08:58:49 IST" finished-at="2022-02-14T08:58:51 IST">
+    <test name="Default test" duration-ms="2710" started-at="2022-02-14T09:37:00 IST" finished-at="2022-02-14T09:37:03 IST">
       <class name="com.examples.LoginTest1">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.examples.LoginTest1@2a742aa2]" name="setup" is-config="true" duration-ms="9097" started-at="2022-02-14T08:58:40 IST" finished-at="2022-02-14T08:58:49 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.examples.LoginTest1@2a742aa2]" name="setup" is-config="true" duration-ms="7184" started-at="2022-02-14T09:36:53 IST" finished-at="2022-02-14T09:37:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyDPHeader()[pri:0, instance:com.examples.LoginTest1@2a742aa2]" name="verifyDPHeader" duration-ms="1901" started-at="2022-02-14T08:58:49 IST" finished-at="2022-02-14T08:58:51 IST">
+        <test-method status="PASS" signature="verifyDPHeader()[pri:0, instance:com.examples.LoginTest1@2a742aa2]" name="verifyDPHeader" duration-ms="2206" started-at="2022-02-14T09:37:00 IST" finished-at="2022-02-14T09:37:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDPHeader -->
-        <test-method status="PASS" signature="verifyUserPage()[pri:0, instance:com.examples.LoginTest1@2a742aa2]" name="verifyUserPage" duration-ms="211" started-at="2022-02-14T08:58:51 IST" finished-at="2022-02-14T08:58:51 IST">
+        <test-method status="PASS" signature="verifyUserPage()[pri:0, instance:com.examples.LoginTest1@2a742aa2]" name="verifyUserPage" duration-ms="291" started-at="2022-02-14T09:37:02 IST" finished-at="2022-02-14T09:37:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserPage -->
